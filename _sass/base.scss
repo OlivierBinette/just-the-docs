@@ -64,7 +64,7 @@ p {
 }
 
 a {
-  color: $link-color;
+  color: $blue-000;
   text-decoration: none;
 }
 
@@ -76,7 +76,7 @@ a:not([class]) {
   background-size: 1px 1px;
 
   &:hover {
-    background-image: linear-gradient(rgba($link-color, 0.45) 0%, rgba($link-color, 0.45) 100%);
+    background-image: linear-gradient(rgba($blue-000, 0.45) 0%, rgba($blue-000, 0.45) 100%);
     background-size: 1px 1px;
 
   }
